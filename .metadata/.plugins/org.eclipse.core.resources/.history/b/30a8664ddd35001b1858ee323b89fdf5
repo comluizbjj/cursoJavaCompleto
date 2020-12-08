@@ -1,0 +1,28 @@
+package Aplication;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		int linhas = sc.nextInt();
+		int colunas = sc.nextInt();
+		
+		int [][]matriz = new int[linhas][colunas];
+		
+		for(int cont=0;cont < matriz[cont].length;cont++) {
+			for(int cont2=0; cont2 < matriz[cont2].length;cont2++) {
+				matriz[linhas][colunas] = sc.nextInt();
+			}
+		}
+		
+		
+		
+		
+		sc.close();	
+	}
+
+}
